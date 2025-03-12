@@ -44,3 +44,12 @@
     margin-top: 20px;
     font-size: 0.9em;
     }
+    /* Estilo para a imagem */
+.imagem-centralizada {
+    display: block; /* Faz a imagem se comportar como um bloco */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 50%; /* Define a largura máxima da imagem (ajuste conforme necessário) */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Adiciona bordas arredondadas (opcional) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra (opcional) */
+}
